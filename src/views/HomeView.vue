@@ -254,7 +254,7 @@ const friendMessage = computed(() => {
 </template>
 
 <style scoped>
-/* 表单元素样式 */
+
 .form-control:focus {
   border-color: #86b7fe;
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
@@ -265,7 +265,6 @@ const friendMessage = computed(() => {
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
 }
 
-/* 卡片样式 */
 .card {
   border: 1px solid #e0e0e0;
   border-radius: 10px;
@@ -291,7 +290,7 @@ const friendMessage = computed(() => {
   font-size: 0.9rem;
 }
 
-/* 按钮样式 */
+
 .btn {
   transition: all 0.3s ease;
 }
@@ -300,7 +299,6 @@ const friendMessage = computed(() => {
   transform: translateY(-2px);
 }
 
-/* 移动端优化 */
 @media (max-width: 768px) {
   .card {
     width: 100% !important;
@@ -326,12 +324,10 @@ const friendMessage = computed(() => {
     margin-right: 0 !important;
   }
   
-  /* 调整表格显示 */
   .p-datatable {
     font-size: 0.85rem;
   }
   
-  /* 调整标题大小 */
   h1 {
     font-size: 1.5rem;
   }
